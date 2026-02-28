@@ -45,11 +45,10 @@
       "title": "Update Dockerfile with Python/Pillow/pytest dependencies",
       "description": "Modify scripts/runner/Dockerfile to install python3, pip, Pillow, and pytest",
       "item_type": "task",
-      "status": "open",
+      "status": "closed",
       "priority": 1,
-      "claimed_by": "agent-runner",
       "created_at": "2026-02-28T19:05:24.790075198Z",
-      "updated_at": "2026-02-28T19:05:31.224237014Z"
+      "updated_at": "2026-02-28T19:05:42.263485036Z"
     }
   },
   "deps": [
