@@ -20,6 +20,16 @@
       "created_at": "2026-02-28T19:05:17.712935167Z",
       "updated_at": "2026-02-28T19:05:17.712935167Z"
     },
+    "lb-x76l": {
+      "id": "lb-x76l",
+      "title": "Implement test_circle.py",
+      "description": "Create test_circle.py with pytest tests verifying: output.png exists, golden ratio aspect ratio, center pixel is periwinkle, corner pixel is white",
+      "item_type": "task",
+      "status": "open",
+      "priority": 1,
+      "created_at": "2026-02-28T19:05:24.828993775Z",
+      "updated_at": "2026-02-28T19:05:24.828993775Z"
+    },
     "lb-zxy3": {
       "id": "lb-zxy3",
       "title": "Update Dockerfile with Python/Pillow/pytest dependencies",
@@ -39,6 +49,11 @@
     },
     {
       "from_id": "lb-qhqf",
+      "to_id": "lb-v05c",
+      "dep_type": "parent"
+    },
+    {
+      "from_id": "lb-x76l",
       "to_id": "lb-v05c",
       "dep_type": "parent"
     }
