@@ -1,5 +1,15 @@
 {
   "items": {
+    "lb-3sno": {
+      "id": "lb-3sno",
+      "title": "Run tests and verify everything works",
+      "description": "Run circle.py to generate output.png, run pytest to verify all tests pass",
+      "item_type": "task",
+      "status": "open",
+      "priority": 1,
+      "created_at": "2026-02-28T19:05:24.846048640Z",
+      "updated_at": "2026-02-28T19:05:24.846048640Z"
+    },
     "lb-qhqf": {
       "id": "lb-qhqf",
       "title": "Implement circle.py image generator",
@@ -54,6 +64,11 @@
     },
     {
       "from_id": "lb-x76l",
+      "to_id": "lb-v05c",
+      "dep_type": "parent"
+    },
+    {
+      "from_id": "lb-3sno",
       "to_id": "lb-v05c",
       "dep_type": "parent"
     }
