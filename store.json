@@ -53,7 +53,7 @@
   },
   "deps": [
     {
-      "from_id": "lb-zxy3",
+      "from_id": "lb-3sno",
       "to_id": "lb-v05c",
       "dep_type": "parent"
     },
@@ -68,7 +68,7 @@
       "dep_type": "parent"
     },
     {
-      "from_id": "lb-3sno",
+      "from_id": "lb-zxy3",
       "to_id": "lb-v05c",
       "dep_type": "parent"
     }
