@@ -9,7 +9,23 @@
       "priority": 1,
       "created_at": "2026-02-28T19:05:17.712935167Z",
       "updated_at": "2026-02-28T19:05:17.712935167Z"
+    },
+    "lb-zxy3": {
+      "id": "lb-zxy3",
+      "title": "Update Dockerfile with Python/Pillow/pytest dependencies",
+      "description": "Modify scripts/runner/Dockerfile to install python3, pip, Pillow, and pytest",
+      "item_type": "task",
+      "status": "open",
+      "priority": 1,
+      "created_at": "2026-02-28T19:05:24.790075198Z",
+      "updated_at": "2026-02-28T19:05:24.790075198Z"
     }
   },
-  "deps": []
+  "deps": [
+    {
+      "from_id": "lb-zxy3",
+      "to_id": "lb-v05c",
+      "dep_type": "parent"
+    }
+  ]
 }
